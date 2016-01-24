@@ -22,7 +22,6 @@
             }
             .logo {
                 text-align: center;
-/*                margin-top: 24px;*/
             }
             .logo img {
                 max-width: 400px;
@@ -31,35 +30,22 @@
                 height: auto;
                 text-align: center;
             }
-            .sprite { display: block; background-position: center center; text-align: center; margin: 0 auto; }
-            .sprite { background: url('//i.imgur.com/KkYyppC.png') no-repeat top left; width: 280px; height: 340px;  }
-            .sprite.forums:hover { background-position: 0 0; }
-            .sprite.forums { background-position: 0 -340px; }
-            .sprite.shop:hover { background-position: 0 -680px; }
-            .sprite.shop { background-position: 0 -1020px; }
-            .sprite.staff:hover { background-position: 0 -1360px; }
-            .sprite.staff { background-position: 0 -1700px; }
-            .sprite.vote:hover { background-position: 0 -2040px; }
-            .sprite.vote { background-position: 0 -2380px; }
-            .icons .col-md-3 {
-                text-align: center;
-            }
-            .vertical-center {
-                min-height: 100%;
-                min-height: 100vh;
-                display: flex;
-                align-items: center;
-            }
             .jumbotron {
                 background: none;
                 border: none;
                 padding: 0 !important;
                 margin: 0 !important;
             }
+            .msg-panel {
+                background: white;
+                padding: 20px;
+                border-radius: 4px;
+                box-shadow: 0 6px 20px 0 rgba(0, 0, 0, 0.19), 0 8px 17px 0 rgba(0, 0, 0, 0.2);
+            }
         </style>
     </head>
     <body>
-        <div class="jumbotron vertical-center">
+        <div class="jumbotron">
             <div class="container">
                 <div class="row">
                     <div class="col-md-12">
@@ -68,8 +54,8 @@
                         </div>
                     </div>
                 </div>
-                <div class="row message">
-                    content here
+                <div class="row msg-panel">
+                    <p>content here</p>
                 </div>
             </div>
         </div>
